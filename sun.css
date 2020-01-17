@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: none;
+}
+
+img {
+	width: 60%;
+    
+}
+
+.container {
+	position: absolute;
+	top: 20px;
+	right:30px;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+    color: #000;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.link::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #000;
+	transition: width .3s;
+}
+
+.link:hover::after {
+	width: 100%;
+
+}
