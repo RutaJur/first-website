@@ -35,6 +35,8 @@ li a {
 	border-bottom: 1px solid black;
 }
 
+/*page-1*/
+
 .photo-ring {
 	position: absolute;
 	width: 55%;
@@ -46,5 +48,11 @@ li a {
 	padding-top: 390px;
 	padding-right: 30px;
 
+}
+
+/*page-2*/
+
+.photo-earrings {
+	width: 50%;
 
 }
